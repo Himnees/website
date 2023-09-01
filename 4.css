@@ -1,0 +1,49 @@
+#navbar{
+    top: 0px;
+    height: 75px;
+    background-color: pink;
+    position: sticky;
+    width: 100%; 
+     
+}
+#img{
+    height: 60px;
+    width: 60px;
+    margin-right: 100px ;
+    padding-left: 10px;
+    padding-top: 10px;   
+}
+a{
+    margin-right: 100px;
+    text-decoration: none;
+    text-decoration-color: blueviolet;
+}
+#footer{
+    position: static;
+    bottom: 0;
+    text-align: center;
+    height: 90px;
+    background-color: pink;
+    width: 100%;
+    padding: 10px;
+}
+#about{
+    text-align:justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: blue;
+}
+h3{
+    color: violet;
+}
+p{
+    text-align: center;
+}
+#copy{
+    margin-right: 35px;
+}
+i{
+    size: 5px;
+    margin-right: 48px;
+    padding-top: 20px;
+}

@@ -2,19 +2,23 @@
 <html>
     <head>
         <title>Home Page</title>
+        <link rel="stylesheet" href="7.css">
+        <script src="https://kit.fontawesome.com/3a3ad90ddc.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <img src="./logo.png" />
-        <a href="home.html">Home</a>&nbsp;&nbsp;
-        <a href="about.html">About</a>&nbsp;&nbsp;
-        <a href="Services.html">Services</a>&nbsp;&nbsp;
-        <a href="Contact.html">Contact</a>&nbsp;&nbsp;
-        <a href="Employee.html">Employee</a>&nbsp;&nbsp;
-        <a href="login.html">Employee</a>&nbsp;&nbsp;
-        <div5>
-            <table border="3"> 
-                <hr>
-                <label>Andhra Pradesh</label><br>
+        <header id="navbar">
+            <img src="./logo.png" id="img"/>
+            <a href="home.html">Home</a>&nbsp;&nbsp;
+            <a href="about.html">About</a>&nbsp;&nbsp;
+            <a href="Services.html">Services</a>&nbsp;&nbsp;
+            <a href="Contact.html">Contact</a>&nbsp;&nbsp;
+            <a href="Employee.html">Employee</a>&nbsp;&nbsp;
+            <a href="login.html">login</a>&nbsp;&nbsp;
+        </header>
+        <div5 id="ud">
+            <table border="3" id="table"> 
+                
+                <h1>Andhra Pradesh</h1>
                 <thead>
                     <th>Id No.</th>
                     <th>Name</th>
@@ -43,9 +47,9 @@
                 </tbody>
                 </hr>
             </table>
-            <table border="1">
+            <table border="1" id="table">
                 <hr>
-                <label>Delhi</label>
+                <h1>Delhi</h1>
                 <thead>
                     <th>Id No.</th>
                     <th>Name</th>
@@ -58,7 +62,7 @@
                         <td>800000</td>
                     </tr>
                     <tr>
-                        <th>DL-05</th>
+                        <td>DL-05</th>
                         <th colspan="2">Modi</th>
                     </tr>
                     <tr>
@@ -69,6 +73,16 @@
                 </tbody>
             </table>
         </div5>
-
+        <div id="footer">
+            <a>Github</a>
+            <a>Linkedin</a>
+            <a>Instagram</a><br>
+                  <!--brand icon-->
+                  <i class="fa-brands fa-github-square"></i>
+                  <i class="fa-brands fa-facebook-square"></i>
+                  <i class="fa-brands fa-instagram-square"></i>
+                  <i class="fa-brands fa-twitter-square"></i><br>
+                  <span id="copy">&copy; Copyright 2023</span>
+        </div>
     </body>
 </html>

@@ -2,27 +2,44 @@
 <html>
     <head>
         <title>Home Page</title>
+        <link rel="stylesheet" href="1.css">
+        <script src="https://kit.fontawesome.com/3a3ad90ddc.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <img src="/logo.png" />
+        <header id="navbar">
+        <img src="/logo.png"  id="img" />
         <a href="home.html">Home</a>&nbsp;&nbsp;
         <a href="about.html">About</a>&nbsp;&nbsp;
         <a href="Services.html">Services</a>&nbsp;&nbsp;
         <a href="Contact.html">Contact</a>&nbsp;&nbsp;
         <a href="Employee.html">Employee</a>&nbsp;&nbsp;
         <a href="login.html">Log-in</a>&nbsp;&nbsp;
+        </header>
         <form>
-            <fieldset style="width: 400px;">
+            <fieldset id="login">
                 <label>E-mail</label>&nbsp;
                 <input type="email" placeholder="Enter email ID" required/><br><br>
                 <label>Password</label>&nbsp;
                 <input type="password" placeholder="Enter your password" readonly/><br><br>
                 <button>Log-in</button>
+            
             </fieldset><br>
-            <fieldset style="width: 400px;">
-                <label>Create account</label>&nbsp;
-                <a href="signin.html">sign-in</a>
+            <fieldset class="singin">
+                <label>Create account</label><br>
+                <a href="signin.html" id="s">sign-in</a>
             </fieldset>
         </form>
+        <div id="footer">
+            <a>Github</a>
+            <a>Linkedin</a>
+            <a>Instagram</a><br>
+                  <!--brand icon-->
+                  <i class="fa-brands fa-github-square"></i>
+                  <i class="fa-brands fa-facebook-square"></i>
+                  <i class="fa-brands fa-instagram-square"></i>
+                  <i class="fa-brands fa-twitter-square"></i><br>
+                  <span id="copy">&copy; Copyright 2023</span>
+        </div>
     </body>
+    
 </html>

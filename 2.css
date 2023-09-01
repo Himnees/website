@@ -1,0 +1,25 @@
+body{
+    padding-top: 150px;
+    padding-left: 35%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blue
+    
+    
+}
+#as{
+    background-color: pink;
+}
+#submit{
+    color: red;
+    border-radius: 1px;
+    background-color: aquamarine;
+}
+#copy{
+    margin-right: 35px;
+}
+i{
+    size: 5px;
+    margin-right: 48px;
+    padding-top: 20px;
+}
